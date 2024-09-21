@@ -18,5 +18,11 @@ public class Book {
         this.ISBN = ISBN;
         this.price = price;
     }
+
+    public void SherlockFind(String s_title){
+        if(s_title == "The adventures of Sherlock Holmes"){
+            this.price = 0;
+        }
+    }
 }
 
