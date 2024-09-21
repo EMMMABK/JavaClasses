@@ -1,7 +1,7 @@
 public class Book {
     String title;
     String author;
-    int ISBN;
+    String ISBN;
     int price;
 
     void displayInfo(){
