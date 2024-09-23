@@ -1,8 +1,8 @@
 public class Book {
-    private String title;
-    private String author;
-    private String ISBN;
-    private int price;
+    public String title;
+    public String author;
+    public String ISBN;
+    public int price;
 
 
     public void displayInfo(){
